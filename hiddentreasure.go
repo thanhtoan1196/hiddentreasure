@@ -151,7 +151,7 @@ func getUrl(url string) (bool, string, error) {
 
 func main() {
 	// handle arguments
-	if len(os.Args) != 3 {
+	if len(os.Args) != 4 {
 		fmt.Println("Usage: hiddentreasure host_file end_point_file bad_word_file")
 		os.Exit(1)
 	}
@@ -179,7 +179,6 @@ func main() {
 	}
 
 	// Build channel of valid hosts
-	fmt.Println("Building Hosts")
 	go getHosts(hostChan, hostFile)
 
 	wg.Wait()
