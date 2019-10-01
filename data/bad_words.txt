@@ -1,0 +1,7 @@
+<!doctype html>
+</html>
+</HTML>
+WAF
+waf_block
+CloudFlare
+GIF89

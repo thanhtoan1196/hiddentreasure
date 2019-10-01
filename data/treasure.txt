@@ -1,0 +1,12 @@
+.svn/entries
+.git/config
+.env
+.ssh/id_rsa
+.ssh/authorized_keys
+wp-content/debug.log
+wp-content/uploads/mc4wp-debug.log
+htpasswd.txt
+htpasswd.bak
+ws_ftp.log
+configuration.php
+config/databases.yml
