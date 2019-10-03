@@ -5,3 +5,5 @@ WAF
 waf_block
 CloudFlare
 GIF89
+error
+Error
