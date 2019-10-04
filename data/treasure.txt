@@ -10,3 +10,6 @@ htpasswd.bak
 ws_ftp.log
 configuration.php
 config/databases.yml
+anaconda-ks.cfg
+etc/passwd
+passwd
